@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lor-clicky-game/precache-manifest.7b6cdc6814d2c2dbf3ff227ec9d20b23.js"
+  "/lor-clicky-game/precache-manifest.76a48eabd912aa07083de1e43cb1d986.js"
 );
 
 workbox.clientsClaim();
