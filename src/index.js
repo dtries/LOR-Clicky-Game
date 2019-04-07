@@ -30,7 +30,7 @@ class Board extends React.Component {
         const instructions = "Click on each image only once. Can you get them all? ";  //passed to retrun in this component
 
         //Use parentheses to encapsulate all that should be returned
-        return ( 
+        return (
             <div className = "container">
                 <div className="row" id="title-row">
                     <div className="col s12">
@@ -118,9 +118,6 @@ class Board extends React.Component {
                 </div>
 
             </div>
-
-
-
         ); 
     }
 }
