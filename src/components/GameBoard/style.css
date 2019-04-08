@@ -1,0 +1,25 @@
+.game-board {
+    background-color: transparent;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* margin-top: -13%; */
+}
+
+@media screen and (min-width: 40em) {
+    .game-board {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .game-board {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        margin: 10%;
+    }
+}
