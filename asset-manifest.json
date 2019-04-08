@@ -1,13 +1,13 @@
 {
-  "main.css": "/lor-clicky-game/static/css/main.be9cd952.chunk.css",
-  "main.js": "/lor-clicky-game/static/js/main.e88e89ea.chunk.js",
-  "main.js.map": "/lor-clicky-game/static/js/main.e88e89ea.chunk.js.map",
+  "main.css": "/lor-clicky-game/static/css/main.032381e0.chunk.css",
+  "main.js": "/lor-clicky-game/static/js/main.cfdc84c0.chunk.js",
+  "main.js.map": "/lor-clicky-game/static/js/main.cfdc84c0.chunk.js.map",
   "runtime~main.js": "/lor-clicky-game/static/js/runtime~main.836dfb5a.js",
   "runtime~main.js.map": "/lor-clicky-game/static/js/runtime~main.836dfb5a.js.map",
-  "static/js/2.98dcc9dd.chunk.js": "/lor-clicky-game/static/js/2.98dcc9dd.chunk.js",
-  "static/js/2.98dcc9dd.chunk.js.map": "/lor-clicky-game/static/js/2.98dcc9dd.chunk.js.map",
+  "static/js/2.6efc73d3.chunk.js": "/lor-clicky-game/static/js/2.6efc73d3.chunk.js",
+  "static/js/2.6efc73d3.chunk.js.map": "/lor-clicky-game/static/js/2.6efc73d3.chunk.js.map",
   "index.html": "/lor-clicky-game/index.html",
-  "precache-manifest.215043fc5253431640f0bc7bd090426a.js": "/lor-clicky-game/precache-manifest.215043fc5253431640f0bc7bd090426a.js",
+  "precache-manifest.5965d8856cdf7dbda2bc65414391539a.js": "/lor-clicky-game/precache-manifest.5965d8856cdf7dbda2bc65414391539a.js",
   "service-worker.js": "/lor-clicky-game/service-worker.js",
-  "static/css/main.be9cd952.chunk.css.map": "/lor-clicky-game/static/css/main.be9cd952.chunk.css.map"
+  "static/css/main.032381e0.chunk.css.map": "/lor-clicky-game/static/css/main.032381e0.chunk.css.map"
 }
