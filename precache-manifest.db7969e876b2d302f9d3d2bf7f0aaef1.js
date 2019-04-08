@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/lor-clicky-game/static/js/runtime~main.836dfb5a.js"
   },
   {
-    "revision": "4ae567917d2a66861b92",
+    "revision": "e644c9068f7ac5878e16",
     "url": "/lor-clicky-game/static/js/main.bf9964f0.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/lor-clicky-game/static/js/2.6efc73d3.chunk.js"
   },
   {
-    "revision": "4ae567917d2a66861b92",
-    "url": "/lor-clicky-game/static/css/main.11280644.chunk.css"
+    "revision": "e644c9068f7ac5878e16",
+    "url": "/lor-clicky-game/static/css/main.51f99993.chunk.css"
   },
   {
-    "revision": "7962018bfca9e7807e9cdb7760edf6e2",
+    "revision": "106d9430a12396e9a858438db8172425",
     "url": "/lor-clicky-game/index.html"
   }
 ];
