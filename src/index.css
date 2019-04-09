@@ -1,0 +1,34 @@
+  main,
+  footer {
+    font-family: 'Pirata One', cursive;  
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url("./images/Mordor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .navbar-material,
+  .page-footer {
+    background-color:rgb(115,30,22);
+  }
+
+
+  #brand,
+  #tag-line,
+  .score {
+    font-size: 200%;
+    color: rgb(245, 199, 149);
+
+  }
+      
+
