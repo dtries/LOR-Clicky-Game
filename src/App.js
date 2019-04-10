@@ -6,6 +6,8 @@ import GameBoard from "./components/GameBoard";
 import characters from "./characters.json";
 import NavBar from "./components/NavBar";
 
+var score = 0;
+
 class App extends Component {
     constructor(props) {
         super(props);
@@ -18,7 +20,7 @@ class App extends Component {
 
 
     handleClick = e => {
-
+        let startAgain = 0;
         let currentGuess = e.target.alt
         let guessChecker = this.state.guessed.indexOf(currentGuess) > -1;
         console.log(currentGuess);
@@ -29,7 +31,14 @@ class App extends Component {
 
         if (guessChecker) {
             this.setState ({ guessed: []});
+            score = 0;
+            startAgain = 1;
         }
+
+        if (startAgain != 1) {
+        score += 1;
+        }
+        console.log(`The score is ${score}`);
     }
 
 
@@ -93,19 +102,4 @@ function shuffle(array) {
     }
   
     return array;
-}
-
-// ====== Checks to See if that character id has been selected already ======
-// function pickedAlready(guessed) {
-//     console.log("WILL CHECKED GUESSED ARRAY TO SEE AN CHARACTER ID HAS BEEN GUESSED ALREADY");
-
-// };
-
-// ====== Reset Function ======
-
-// function startOver() {
-//     console.log("RESET SCORE TO 0 and CLEAR GUESSED ARRAY")
-//     this.setState = [];
-// };
-
-  
+}  
