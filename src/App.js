@@ -7,6 +7,7 @@ import characters from "./characters.json";
 import NavBar from "./components/NavBar";
 
 var score = 0;
+var highscore = 0;
 
 class App extends Component {
     constructor(props) {
@@ -35,10 +36,15 @@ class App extends Component {
             startAgain = 1;
         }
 
-        if (startAgain != 1) {
+        if (startAgain !== 1) {
         score += 1;
         }
+
+        if (score > highscore) {
+            highscore = score;
+        }
         console.log(`The score is ${score}`);
+        console.log(`The high score is ${highscore}`);
     }
 
 
