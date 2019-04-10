@@ -4,30 +4,36 @@ import Container from "./components/Container";
 import Title from "./components/Title";
 import GameBoard from "./components/GameBoard";
 import characters from "./characters.json";
-
-// shuffle(characters);
+import NavBar from "./components/NavBar";
 
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            guessed: Array(12).fill(null),
+            guessed: [],
             characters,
         }
-        // this.getCharInfo = this.getCharInfo.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick = () => {
 
-        console.log(`Clickity!!!`);
-        // const guessed = this.state.guessed.slice();
-        // guessed[id] = this.state.characters.id;
+    handleClick = e => {
 
-        // if (pickedAlready(guessed)) {
-        //     reset();
-        // }
-        // this.setState({guessed: guessed});
+        let currentGuess = e.target.alt
+        let guessChecker = this.state.guessed.indexOf(currentGuess) > -1;
+        console.log(currentGuess);
+        console.log(guessChecker);
+        
+        this.setState({ guessed: [...this.state.guessed, e.target.alt] });
+        console.log(this.state.guessed);
+
+        if (guessChecker) {
+            this.setState ({ guessed: []});
+        }
     }
+
+
+  
 
          
     // every class has a render
@@ -35,9 +41,15 @@ class App extends Component {
 
         shuffle(characters);
 
+        // shuffle(characters);
+
         // every render has a return, this is used to set the Character Card images and Title
         return (
             <Container>
+                {/* <NavBar> */}
+
+                {/* </NavBar> */}
+                
                 <Title>
 
                 </Title>
@@ -91,8 +103,9 @@ function shuffle(array) {
 
 // ====== Reset Function ======
 
-// const reset = () => {
+// function startOver() {
 //     console.log("RESET SCORE TO 0 and CLEAR GUESSED ARRAY")
+//     this.setState = [];
 // };
 
   

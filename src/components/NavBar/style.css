@@ -1,0 +1,15 @@
+.navbar-fixed {
+    margin: auto;
+}
+
+.navbar-material {
+    background-color:rgb(115,30,22);
+  }
+
+  #brand,
+  #tag-line,
+  .score {
+    font-size: 200%;
+    color: rgb(245, 199, 149);
+
+  }
