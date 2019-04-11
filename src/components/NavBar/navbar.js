@@ -17,9 +17,9 @@ function NavBar(props) {
                         </div>
 
                         <div className="col s12 m4">
-                            <i className="score right"> 
-                                Score: {props.score} | Top Score: {props.highscore}
-                            </i>
+                            <ul className="score right"> 
+                                <li>Score: {props.score} | Top Score: {props.highscore}</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
