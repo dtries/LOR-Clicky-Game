@@ -48,7 +48,7 @@ VS Code - Text Editor
 Contact: dtries@gmail.com
 
 © 2019 GitHub, Inc.
-Terms
+Terms   
 Privacy
 Security
 Status
