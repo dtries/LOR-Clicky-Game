@@ -1,5 +1,5 @@
 {
-  "main.css": "/lor-clicky-game/static/css/main.e435b475.chunk.css",
+  "main.css": "/lor-clicky-game/static/css/main.0e2ca8cc.chunk.css",
   "main.js": "/lor-clicky-game/static/js/main.6fcf0406.chunk.js",
   "main.js.map": "/lor-clicky-game/static/js/main.6fcf0406.chunk.js.map",
   "runtime~main.js": "/lor-clicky-game/static/js/runtime~main.836dfb5a.js",
@@ -7,8 +7,8 @@
   "static/js/2.d7852cb1.chunk.js": "/lor-clicky-game/static/js/2.d7852cb1.chunk.js",
   "static/js/2.d7852cb1.chunk.js.map": "/lor-clicky-game/static/js/2.d7852cb1.chunk.js.map",
   "index.html": "/lor-clicky-game/index.html",
-  "precache-manifest.7aab17f35fdfe10ce61c52530369be3f.js": "/lor-clicky-game/precache-manifest.7aab17f35fdfe10ce61c52530369be3f.js",
+  "precache-manifest.73f3dafbc85eef6bd93fdc6236f5ceb7.js": "/lor-clicky-game/precache-manifest.73f3dafbc85eef6bd93fdc6236f5ceb7.js",
   "service-worker.js": "/lor-clicky-game/service-worker.js",
-  "static/css/main.e435b475.chunk.css.map": "/lor-clicky-game/static/css/main.e435b475.chunk.css.map",
+  "static/css/main.0e2ca8cc.chunk.css.map": "/lor-clicky-game/static/css/main.0e2ca8cc.chunk.css.map",
   "static/media/index.css": "/lor-clicky-game/static/media/Mordor.61e68992.jpg"
 }
