@@ -5,3 +5,42 @@
     color: rgb(245, 199, 149);
     text-shadow: 1px 1px 2px rgb(13, 7, 6), 0 0 25px rgb(89, 81, 79), 0 0 5px rgb(115,30,22);
 }
+
+
+  @media screen and (max-width: 599px) {
+
+    #title-row {
+        margin-bottom: 0%;
+    }
+    h1 {
+        font-size: 100%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+}  
+
+@media screen and (max-width: 899px) {
+
+    #title-row {
+        margin-bottom: 0%;
+    }
+    h1 {
+        font-size: 400%;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 1799px) {
+
+}
