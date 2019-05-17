@@ -13,7 +13,7 @@ The task was to develop a web application using the React JavaScript library to 
 This single page site presents the user an with concise instructions and easy to use interface. For each unique picture the user selects, she/he earns a point. The tricky part is that the pictures are shuffled in random order after each image click. The user continues to earn points until she/he selects an image that has already been selected. When any image is selected more than once, the game resets the score to zero and the user can try again. The highest score achieved is also tracked and displayed just to the right of the current score for a given round.
 
 ## Run App Through GitHub Pages Deployment
-Try the [App](https://dtries.github.io/lor-click-game/).
+Try the [App](https://dtries.github.io/lor-clicky-game/).
  
 ## Getting Started on Your Own Machine
 1. Clone the [repo](https://github.com/dtries/lor-clicky-game.git) to your machine. 
